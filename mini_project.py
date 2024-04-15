@@ -85,9 +85,9 @@ def app():
                 view_tasks()
                 user_choice = input("To go back enter 'b'\nChoice: ")
                 print("\n```")
-            elif user_choice == "Mark a task complete":
+            elif user_choice == "Mark a task as complete":
                 mark_task_complete()
-                user_choice = input("To mark another task complete enter 'Mark a task complete' To go back enter 'b'\nChoice: ")
+                user_choice = input("To mark another task complete enter 'Mark a task as complete' To go back enter 'b'\nChoice: ")
                 print("\n```")
             elif user_choice == "Delete a task":
                 delete_task()
